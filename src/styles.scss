@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/Init-css.scss';
+@import './styles/_colors.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* importing a library directly into css  */
+@import '~primeflex/primeflex.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $white;
+  background-color: $bgColor;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

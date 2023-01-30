@@ -1,0 +1,12 @@
+<p>home works!</p>
+
+<!-- <pre>{{movies | json}}</pre> -->
+
+<ul *ngFor="let movie of movies">
+    <li>{{movie.title | json}}</li>
+    <img src="{{movie.poster_path}}" alt="">
+</ul>
+
+<ul *ngFor="let country of climateCountry">
+    <li>{{country.data}}</li>
+</ul>
